@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Steps
+
+**Finish the layout with dummy text**
+**work on the firebase and get configurations** 
+**'follow the steps from the note'**
+**implement/create the database tables**
+**import the database into the file in the sidebar component and the sideBarChat component**
+
+****

@@ -1,0 +1,83 @@
+.sideBar__header{
+    width: 100vh;
+    flex: 0.4;
+    padding: 20px;
+}
+
+.sideBar__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+}
+.sideBar__top>.MuiSvgIcon-root{
+    font-size: 40px;
+}
+
+.sideBar__more{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.sideBar__more>.MuiSvgIcon-root{
+    font-size: 25px !important;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.sideBar__more>.MuiSvgIcon-root:hover{
+   opacity: 1;
+}
+.sideBar__search{
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px 0 20px;
+    cursor: pointer;
+   
+
+}
+
+.sideBar__search >.MuiSvgIcon-root{
+    font-size: 24px !important;
+    color: rgb(153, 148, 148);
+    opacity: 0.8;
+} 
+
+.sideBar__search >.MuiSvgIcon-root:hover{
+    opacity: 1;
+
+} 
+
+.sideBar__search > input{
+    width: 100%;
+    border:none;
+    font-size: 14px;
+    border-width:0px;
+    margin-right: 10px;
+    height: 32px;
+} 
+/* removes border when focused*/
+.sideBar__search > input:focus{
+    outline: none;
+    
+} 
+
+
+.scroll__area{
+    flex: 1;    
+    overflow: scroll;
+    height: 85%
+}
+
+.scroll__area>a{
+    text-decoration: none;
+}
+
+.scroll__area::-webkit-scrollbar{
+    display: none;
+}
